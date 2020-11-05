@@ -9,5 +9,5 @@
 - 材料狗
 - 小镇做题家
 
-[GitHub](https://github.com/kzcy/doc)
-[Get Started](#quick-start)
+[GitHub](<https://github.com/kzcy/doc>)
+[开始阅读](README.md)
