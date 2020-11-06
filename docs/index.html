@@ -33,17 +33,6 @@
         noData: '找不到结果!',
         depth: 3
       }	
-      EditOnGithubPlugin.create(
-        'https://github.com/kzcy/doc/tree/master/docs/posts',
-        null,
-        function(file) {
-          if (file.indexOf('en') === -1) {
-            return '编辑'
-          } else {
-            return 'edit on git'
-          }
-        }
-      )
     } 
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -83,6 +72,18 @@
       distractionFreeMode: true
     })
   </script>
-  
+  <script>
+      EditOnGithubPlugin.create(
+        'https://github.com/kzcy/doc/tree/master/docs/posts',
+        null,
+        function(file) {
+          if (file.indexOf('en') === -1) {
+            return '编辑'
+          } else {
+            return 'edit on git'
+          }
+        }
+      )
+  </script>
 </body>
 </html>
