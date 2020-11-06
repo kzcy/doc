@@ -1,14 +1,3 @@
----
-title: 花海芳踪
-date: 2016-08-13 17:45:00
-tags:
-  - 摄影
-  - Family
-categories:
-  - [摄影]
-comments: true
----
-
 老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。`P9Leica`效果虽然不错，但是单反的画质明显更加细腻。
 
 ![花海芳踪](https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg)
