@@ -33,6 +33,11 @@
         noData: '找不到结果!',
         depth: 3
       },
+      plugins: [
+        EditOnGithubPlugin.create(
+          'https://github.com/njleonzhang/vue-data-tables/blob/master/docs/'
+        ),
+      ],
     } 
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
