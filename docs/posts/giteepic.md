@@ -1,16 +1,3 @@
----
-title: Gitee+PicGo图床搭建笔记
-date: 2020-08-27 17:10:15
-tags:
-  - 技术
-  - Gitee
-  - Markdown
-  - Typora
-categories:
-  - [技术,备忘]
-comments: true
----
-
 {% note info %} 
 图床是干什么的？图床一般是指储存图片的服务器。
 设置图床之后，在博客中插入的图片链接就可以随时在线预览。
@@ -19,8 +6,6 @@ comments: true
 神奇的PicGo就是为了解决这个问题诞生的，它可以将图片上传到指定的图床上，然后返回markdown链接，直接粘贴到你的文档中。
 
 目前国内环境，使用PicGo +  [码云](https://links.jianshu.com/go?to=https%3A%2F%2Fgitee%2Fcom)来实现markdown图床，既可以白嫖，又方便快捷，可以说得上是最优解。
-
-<!--more-->
 
 ## 软件安装
 
