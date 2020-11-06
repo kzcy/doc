@@ -33,26 +33,6 @@
         noData: '找不到结果!',
         depth: 3
       },
-      plugins: [
-        DemoBoxVue.create(jsResources, cssResources, bootCode),
-        EditOnGithubPlugin.create(
-          'https://github.com/kzcy/doc/blob/master/docs/'
-        ),
-        function (hook) {
-          var footer = [
-            '<hr/>',
-            '<footer>',
-            '<span><a href="https://github.com/kzcy">leon zhang</a> &copy;2017.</span>',
-            '<span>Proudly published with <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
-            '</footer>'
-          ].join('')
-
-          hook.afterEach(function (html) {
-            return html + footer
-          })
-        },
-        DocsifyCodefund.create(15)
-      ]
     } 
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -74,8 +54,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- 图片缩放插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <!-- 在线编辑插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <!-- gitalk插件 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
