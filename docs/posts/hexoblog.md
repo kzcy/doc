@@ -1,15 +1,3 @@
----
-title: Gitee平台Hexo博客搭建笔记
-date: 2020-08-25 10:20:03
-tags:
-  - 技术
-  - Hexo
-  - Gitee
-categories:
-  - [技术,笔记]
-comments: true
----
-
 ## 前言
 
 一直以来都在尝试各种博客平台，WordPress、Farbox、Typecho……
