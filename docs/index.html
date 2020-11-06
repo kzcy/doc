@@ -35,16 +35,8 @@
       }	
       plugins: [
         EditOnGithubPlugin.create(
-          'https://github.com/kzcy/doc/tree/master/docs/posts',
-          null,
-          function(file) {
-            if (file.indexOf('en') === -1) {
-              return '编辑'
-            } else {
-              return 'edit on git'
-            }
-          }
-        )
+          'https://github.com/kzcy/doc/blob/master/docs/posts/'
+        ),
       ]
     } 
   </script>
@@ -67,6 +59,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- 图片缩放插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 页面编辑插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <!-- gitalk插件 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
@@ -82,10 +76,6 @@
       // facebook-like distraction free mode
       distractionFreeMode: true
     })
-  </script>
-  
-  <!-- 页面编辑插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
-
+  </script> 
 </body>
 </html>
