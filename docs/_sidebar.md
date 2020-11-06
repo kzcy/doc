@@ -14,5 +14,5 @@
 * 技术笔记
 
   * [Gitee平台Hexo博客搭建](posts/hexoblog) 
-  * [Gitee图床搭建](posts/giteepic)
+  * [Gitee图床搭建<sup style="color:red">(new)<sup>](posts/giteepic)
   * [Markdown使用](posts/hexomarkdown)
