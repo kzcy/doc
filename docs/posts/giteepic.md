@@ -94,5 +94,4 @@ MarkDown写作软件很多，但是Typora是兼具功能与颜值的软件之一
 配置上，打开Typora`设置`，在`图像`便签，按照下面设置即可：
 
 ![image-20200827170417361](https://gitee.com/kzcy/pic/raw/master/img/image-20200827170417361.png)
-
- ?>**Enjoy！**
+?>**Enjoy！**
