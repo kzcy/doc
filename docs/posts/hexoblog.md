@@ -8,8 +8,8 @@
 
 至于为什么要费这些事，那就是：
 
-?>Because we can!
-?>——The Big Bang Theory
+> Because we can!
+> ——The Big Bang Theory
 
 <!--more-->
 
@@ -167,7 +167,7 @@ hexo d          # 上传
 
 ### 全局配置文件`_config.yml`
 
-```yml+bash
+```yml
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -287,7 +287,7 @@ search:
 
 ### 主题配置文件`_config.yml`
 
-```yml+bash
+```yml
 # ---------------------------------------------------------------
 # Theme Core Configuration Settings
 # See: https://theme-next.org/docs/theme-settings/
