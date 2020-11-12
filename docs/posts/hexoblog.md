@@ -8,12 +8,8 @@
 
 至于为什么要费这些事，那就是：
 
-{% cq %} 
-Because we can!
-
+!>Because we can!
 **The Big Bang Theory**
-
- {% endcq %}
 
 <!--more-->
 
@@ -23,7 +19,7 @@ Because we can!
 
 - Node.js [下载地址](https://nodejs.org/en/)
 
-{% note warning %} Node.js建议下载LTS版本，Current版本容易出现不明原因的报错。{% endnote %}
+!>Node.js建议下载LTS版本，Current版本容易出现不明原因的报错。
 
 - Visual Studio Code（推荐）[下载地址](https://code.visualstudio.com/)
 
@@ -37,7 +33,7 @@ Because we can!
 npm install hexo-cli -g
 ```
 
-{% note info %} 如果网络环境不好，访问GitHub速度慢的话，可以配置npm国内源。{% endnote %}
+?>如果网络环境不好，访问GitHub速度慢的话，可以配置npm国内源。
 
 ```bash
 npm config set registry https://registry.npm.taobao.org  # 配置国内的镜像源
@@ -53,7 +49,7 @@ hexo generate   # 生成静态网页
 hexo server     # 启动服务
 ```
 
-{% note info %} `hexo generate`可以简化为`hexo g`，`hexo server`可以简化为`hexo s`。{% endnote %}
+?>`hexo generate`可以简化为`hexo g`，`hexo server`可以简化为`hexo s`。
 
 现在，我们就可以在浏览器[预览](http://localhost:4000)博客。
 
@@ -123,13 +119,13 @@ comments: true
 - categories     分类，`[]`内填写分类名，支持二级分类，如`[book,novel]`;
 - comments     评论开关，`true`为开，`false`为关。
 
-## 部署到[Gitee](https://gitee.com/)
+## 部署到Gitee
 
 创建账户，然后创建仓库。
 
 ![gitee new](https://gitee.com/kzcy/pic/raw/master/img/gitee%20new.png)
 
-{% note info %}**这里建议博客仓库名最好与个人空间地址一致，这样你开启Pages后得到的就是一个二级域名。**{% endnote %}
+?>这里建议博客仓库名最好与个人空间地址一致，这样你开启Pages后得到的就是一个二级域名。
 
 **更改全局配置文件：**
 
@@ -156,15 +152,14 @@ hexo g          # 生成静态网页
 hexo d          # 上传
 ```
 
-{% note info %} 这一步需要输入Gitee账户和密码，保存位置在`Window凭据管理器`里。{% endnote %}
-
+?>这一步需要输入Gitee账户和密码，保存位置在`Window凭据管理器`里。
 **最后开启gitee pages网页解析服务**
 
 ![gitee pages](https://gitee.com/kzcy/pic/raw/master/img/gitee%20pages.png)
 
 然后选择`开启`或`更新`即可。
 
-{% note warning %} 这里需要注意，每次重新上传网页后，都需要到这里来更新网页。{% endnote %}
+!>这里需要注意，每次重新上传网页后，都需要到这里来更新网页。
 
 ## 我的配置文件
 
@@ -172,7 +167,7 @@ hexo d          # 上传
 
 ### 全局配置文件`_config.yml`
 
-```yml
+```yml+bash
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -292,7 +287,7 @@ search:
 
 ### 主题配置文件`_config.yml`
 
-```yml
+```yml+bash
 # ---------------------------------------------------------------
 # Theme Core Configuration Settings
 # See: https://theme-next.org/docs/theme-settings/
