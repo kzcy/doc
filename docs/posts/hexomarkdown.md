@@ -1,59 +1,43 @@
-## **一、创建文章**
+## 创建文章
 
 在站点文件夹中打开 git bash，输入如下命令创建文章，其中 `title` 为文章的标题
-
-*$ hexo new “title”*
-
+```bash
+hexo new “title”*
+```
 当输入命令后，就会在 `source/_post` 文件夹下创建一个文件，命名为：`title.md`
-
 这个文件就是将要发布到网站上的原始文件，用于记录文章内容。
 
 <!--more-->
 
-## **二、编写文章**
+## 编写文章
 
 ### Markdown 简介
-
 *Markdown 是一种可以使用普通文本编辑器编写的 **标记语言**，通过简单的 **标记语法**，它可以使普通文本内容具有一定的格式*
 
 ### Markdown语法
 
 #### Typora 快捷键：
 
-*Ctrl+1：一级标题*
-
-*Ctrl+2：二级标题*
-
-*Ctrl+3：三级标题*
-
+Ctrl+1：一级标题
+Ctrl+2：二级标题
+Ctrl+3：三级标题
 Ctrl+4：四级标题
-
 Ctrl+5：五级标题
-
-Ctrl+6 ：六级标题
-
-*Ctrl+0：段落*
+Ctrl+6：六级标题
+Ctrl+0：段落
 
 #### Markdown 语法：
-
-------
-
 ```markdown
 *斜体*
 **粗体**
 ***加粗斜体***
 ~~删除线~~
-1234
 ```
 
 **Typora 快捷键：**
-
 Ctrl+I：斜体
-
 Ctrl+B：粗体
-
 Ctrl+U：下划线
-
 Alt+Shift+5：删除线
 
 ### 引用块
@@ -210,8 +194,9 @@ Alt+Shift+5：删除线
 
 ![img](http://theme-next.iissnan.com/uploads/tags/full-image.jpg)
 
-### Bootstrap Callout 由 [ivan-nginx](https://github.com/iissnan/hexo-theme-next/pull/1160) 贡献
+### Bootstrap Callout 
 
+由 [ivan-nginx](https://github.com/iissnan/hexo-theme-next/pull/1160) 贡献
 这些样式出现在 [Bootstrap 的官方文档](http://getbootstrap.com/)中。
 
 #### 使用方式
@@ -234,6 +219,6 @@ Alt+Shift+5：删除线
 ![img](https://gitee.com/kzcy/pic/raw/master/img/bootstrap-callout.png)
 
 
-### 参考资料
+#### 参考资料
   1.  https://www.dazhuanlan.com/2019/12/14/5df3b9db55a34/
   2.  http://theme-next.iissnan.com/tag-plugins.html
