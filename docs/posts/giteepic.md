@@ -26,7 +26,7 @@
 
 !>这里注意一下，必须要先安装[node.js](https://nodejs.org/zh-cn/)才能安装插件。
 
-##  建立[码云](https://gitee.com)仓库
+##  建立码云仓库
 
 ### 新建仓库
 
