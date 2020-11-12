@@ -8,8 +8,8 @@
 
 至于为什么要费这些事，那就是：
 
-!>Because we can!
-**The Big Bang Theory**
+?>Because we can!
+?>——The Big Bang Theory
 
 <!--more-->
 
