@@ -1,7 +1,5 @@
-{% note info %} 
-图床是干什么的？图床一般是指储存图片的服务器。
+?>图床是干什么的？图床一般是指储存图片的服务器。
 设置图床之后，在博客中插入的图片链接就可以随时在线预览。
-{% endnote %}
 
 神奇的PicGo就是为了解决这个问题诞生的，它可以将图片上传到指定的图床上，然后返回markdown链接，直接粘贴到你的文档中。
 
@@ -26,12 +24,7 @@
 
 <img src="https://gitee.com/kzcy/pic/raw/master/img/82708.png" alt="软件界面" style="zoom:80%;" />
 
-{% note warning %} 
-
-这里注意一下，必须要先安装[node.js](https://nodejs.org/zh-cn/)才能安装插件。
-
-{% endnote %}
-
+!>这里注意一下，必须要先安装[node.js](https://nodejs.org/zh-cn/)才能安装插件。
 
 ##  建立[码云](https://gitee.com)仓库
 
@@ -63,11 +56,8 @@
 
 验证密码之后会出来一串数字，这一串数字就是你的`token`**（不能泄露，否者别人也可以操作你的数据）**，后面设置会用到。
 
-{% note warning %} 
+!>注意：这个令牌只会明文显示一次，建议在配置插件的时候再来生成令牌，直接复制进去，搞丢了又要重新生成一个。
 
-注意：这个令牌只会明文显示一次，建议在配置插件的时候再来生成令牌，直接复制进去，搞丢了又要重新生成一个。
-
-{% endnote %}
 
 ## PicGo调教
 
@@ -105,8 +95,4 @@ MarkDown写作软件很多，但是Typora是兼具功能与颜值的软件之一
 
 ![image-20200827170417361](https://gitee.com/kzcy/pic/raw/master/img/image-20200827170417361.png)
 
-{% cq %}
-
- **Enjoy！**
-
-{% endcq %}
+ ?>**Enjoy！**
