@@ -5,7 +5,7 @@
   * [北京折叠](posts/beijingzhedie) 
   * [看见](posts/kanjian)
 
-* 摄影
+* 摄影笔记
 
   * [花海芳踪](posts/huahaifangzong) 
   * [青涩年华](posts/qingsenianhua)
