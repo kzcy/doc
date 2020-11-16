@@ -38,8 +38,8 @@
       },
       // docsify-valine (defaults)
       Valine: {
-        appId: '{ secrets.APPID }',
-        appKey: '{ secrets.APPKEY }',
+        appId: ${{ secrets.APPID }},
+        appKey: ${{ secrets.APPKEY }},
       },
     } 
   </script>
@@ -65,16 +65,5 @@
   <!-- gitalk插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script>
-    const gitalk = new Gitalk({
-      clientID: '14e45913ad2525dd465b',
-      clientSecret: '8d35acb553263290e382a6f3f22ea7c97d95fa36',
-      repo: 'gitalk',
-      owner: 'kzcy',
-      admin: ['kzcy'],
-      // facebook-like distraction free mode
-      distractionFreeMode: true
-    })
-  </script> 
 </body>
 </html>
